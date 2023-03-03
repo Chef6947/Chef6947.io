@@ -11,7 +11,7 @@ text-align: center;
   }
   div {
     width: 300px;
-    border: 15px solid green;
+    border: 15px solid rgb(89, 96, 110);
     padding: 50px;
     margin: 20px;
   }
