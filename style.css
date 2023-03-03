@@ -1,2 +1,6 @@
-body{background-image: url("documents/towile.jpeg")  ;}
-p.solid {border-style: solid;}
+body{
+    background-image: url("documents/towile.jpeg");
+}
+h1 {
+    border-style: solid;
+}
