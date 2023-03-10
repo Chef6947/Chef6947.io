@@ -1,0 +1,47 @@
+My page
+![image](https://user-images.githubusercontent.com/124084493/219261586-f875105b-4afc-4d2e-80ee-4fd2c54567e9.png)
+html{
+    background-color: rgba(134, 0, 0, 0.767);
+    background-color: transparent 60px;
+    text-shadow: 4px 4px 5px black;
+    }
+img{    
+    width:1000px;
+    border-radius: 800px;
+    mix-blend-mode: saturation;
+    mix-blend-mode: lighten;
+    border: solid   5px black;
+}
+head{
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    color: rgb(207, 207, 207);
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+}
+ul{
+    color: rgb(207, 207, 207);
+    font-size: 40px; 
+    text-align:left;
+    list-style: circle;
+}
+div.main-menu :any-link{
+    text-decoration: none;
+    color: rgb(64, 219, 3);
+}
+div.main-menu ul{
+    display: flex;
+    justify-content: space-around;
+    width: 16em;
+    margin: auto;
+    margin-bottom: .5em;
+}
+div.main-menu ul li{
+    display: inline;
+}
+:any-link{
+    text-decoration: none;
+}
