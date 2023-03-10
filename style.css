@@ -1,46 +1,81 @@
 body{
-    background-image: url("media/towile.jpeg");
-    background-color: white;
+    background: -moz-linear-gradient(100);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h1 {
-text-align: center;
-    display:flex;
-    padding:0%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding-right: 0%;
-  }
-  div {
-    width: 300px;
-    border: 0px solid rgb(62, 106, 196);
-    padding: 50px;
-    margin: 20px; 
-  }
-  .nav-links{
-    flex: 1;
-    text-align: right;
-  }
-  .nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-  }
-  .nav-links ul li a{
-    color: #fff
-  }
-  h2 {
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
-    display: flex;
-    padding: 5%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-display: 5%;
-    font-style: var(50px);
-    background-color: #fff;
+}
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+img {
+    max-width: 20%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
   }
   
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.gallery {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-flex;
+    justify-content: center;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+}
+.picture-caption {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid grey;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: grey;
+    color: white;
+    box-shadow: 0px 18px 60px -29px rgba(0,0,0,0.75);
+}
+.why-picture {
+    max-width: 50%;
+    box-shadow: 0px 18px 60px -29px rgba(0,0,0,0.75);
+    border: 15px solid white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.album-picture {
+    max-width: 30%;
+    border: 15px solid white;
+    margin: 20px;
+}
+.album-gallery {
+    display: inline-flex;
+    justify-content: center;
+}
+.source {
+    font-size: 30px;
+    margin: 0 auto;
+}
